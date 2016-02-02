@@ -1,4 +1,6 @@
-# Jekyll Now
+# My Blog uses Jekyll Now
+
+http://www.mind.in.th/blog
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
 
