@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Resume Tips by NTU Career & Attachment Office
 ---
@@ -15,9 +15,10 @@ title: Resume Tips by NTU Career & Attachment Office
 -----------------
 - "ขาย" ความเป็นตัวคุณและประสบการณ์ของคุณ ไม่ใช่เพียงแค่ "บอกเล่า"
 - เรียงลำดับเวลาให้ถูกต้อง
-- อย่าใส่ Career Objective หากมันไม่ดีพอ!
+- อย่าใส่ Career Objective หากว่ามันไม่ดีพอ!
 - ระวังอย่าให้มีเศษของหน้า จะหนึ่งหรือสองหน้า ก็ควรจะใช้พื้นที่ให้เต็มทั้งหน้ากระดาษ
-- ถ้าจะใส่รูปถ่าย ควรเป็นรูป Professional ไม่ใช่ Profile Facebook!
+- ถ้าจะใส่รูปถ่าย ควรเป็นรูปที่ถ่ายแบบ Professional โดยช่างมืออาชีพ และแต่งตัวสุภาพ ไม่ใช่ Profile Facebook!
+- เน้น Quantify ให้ได้มากที่สุด พยายามเน้นจำนวน ตัวเลข impact ของสิ่งที่เราทำ / ผลงาน / รางวัล
 
 วิธีขายตัวเอง
 -------------
@@ -41,7 +42,7 @@ title: Resume Tips by NTU Career & Attachment Office
 1. Able to manage big data
 2. มี Planning & Organising Skills
 
-ที่สำคัญคือ Resume สร้างคำถามให้กับ Recruiter เพื่อนำไปสู่การสัมภาษณ์ในรอบถัดไป
+ที่สำคัญคือ Resume ที่ดีควรจะสร้างคำถามให้กับ Recruiter เพื่อนำไปสู่การสัมภาษณ์ในรอบถัดไป
 
 Resume ที่ดีควรมีอะไรบ้าง
 ------------------------
