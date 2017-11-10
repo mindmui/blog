@@ -23,13 +23,6 @@ footer-links:
   instagram:
   linkedin: salisanira
   pinterest:
-<<<<<<< HEAD
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: MindMui
-=======
-  rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
->>>>>>> upstream/master
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -56,9 +49,6 @@ baseurl: "/blog"
 # !! You don't need to change any of the configuration flags below !!
 #
 
-<<<<<<< HEAD
-=======
->>>>>>> upstream/master
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
