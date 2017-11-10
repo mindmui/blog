@@ -3,7 +3,7 @@ layout: post
 title: Impact with Data (Tableau Data Day Out)
 ---
 
-เนื่องจากว่าเราได้มีโอกาสไปร่วม Conference จัดโดย Tableau ที่ Marina Bay Sands (Singapore) ในชื่อ Tableau Data Day Out `#datadayout`  ซึ่งจัดได้อย่างยิ่งใหญ่ อลังการ และประทับใจมาก โดยภายในงานมี Speakers มากมาย จากหลากหลาย industry รวมไปถึงผู้เชี่ยวชาญด้านการ design dashboard โดยเฉพาะ 
+วันนี้ได้มีโอกาสไปร่วม Conference ที่จัดโดย Tableau ที่ Marina Bay Sands (Singapore) ในชื่อ Tableau Data Day Out `#datadayout`  ซึ่งจัดได้อย่างยิ่งใหญ่ อลังการ และประทับใจมาก โดยภายในงานมี Speakers มากมาย จากหลากหลาย industry รวมไปถึงผู้เชี่ยวชาญด้านการ design dashboard โดยเฉพาะ 
 บล็อกนี้จึงขอสรุปเนื้อหาสั้นๆฉบับเร่งรัด จากคุณ Andy Cotgreave - Keynote speaker ในงานนี้
 
 
