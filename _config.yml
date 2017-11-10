@@ -6,7 +6,7 @@
 name: A MindMui Blog
 
 # Short bio or description (displayed in the header)
-description: Talk techy, Talk mathy
+description: Things I do for love
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/12979586?v=3
@@ -23,6 +23,7 @@ footer-links:
   instagram:
   linkedin: salisanira
   pinterest:
+  twitter: MindMui
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
