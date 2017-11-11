@@ -14,6 +14,3 @@ My name is Mind. I am a Thai front-end developer and data analyst.
 
 Write to me at
 [mochimind@gmail.com](mailto:mochimind@gmail.com)
-
-
-![Iraq](/images/tableau1.jpg)
