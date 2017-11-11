@@ -12,7 +12,7 @@ title: Impact with Data (Tableau Data Day Out)
 - การทำ data visualization ก็เหมือนกับการสื่อสารแบบนึง ซึ่งเริ่มจากการที่เราแปลง data แล้วสื่อออกไปให้กับผู้ใช้ เพราะฉะนั้นแล้ว data visualization นั้นเต็มไปด้วยความคิดเห็นของผู้สร้าง
 - ตัวอย่างเช่นรูปด้านล่าง ทั้งสอง dashboard สร้างมาจาก data set เดียวกัน แต่ถูกจัดวาง เติมสี และข้อความ ทำให้ผู้อ่านรู้สึกแตกต่างกันอย่างสิ้นเชิง
 
-![Iraq tab](../images/tableau1.jpg)
+![Iraq tab](/images/tableau1.jpg)
 
 
 2. General Design Approaches
