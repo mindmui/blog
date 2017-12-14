@@ -1,25 +1,4 @@
 
-pre.highlight{
-  color: #303F9F;
-  page-break-inside: avoid;
-  /* Old browsers */
-  display: -webkit-box;
-  -webkit-box-orient: horizontal;
-  -webkit-box-align: stretch;
-  display: -moz-box;
-  -moz-box-orient: horizontal;
-  -moz-box-align: stretch;
-  display: box;
-  box-orient: horizontal;
-  box-align: stretch;
-  /* Modern browsers */
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-}
-
-
-
 div.highlight {
   color: #303F9F;
   page-break-inside: avoid;
@@ -42,7 +21,8 @@ div.highlight {
   background: #f7f7f7;
   line-height: 1.21429em;
   overflow-x: hidden;
-
+  font-size: 90%;
+  padding: 5px 5px 5px 0px;
 
 
 }
