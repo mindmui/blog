@@ -19,13 +19,6 @@ html {
 }
 
 
-/** body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
-}
-**/
-
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
@@ -119,6 +112,9 @@ strong, b {
 
 img {
   max-width: 100%;
+  vertical-align: middle;
+}
+
 }
 
 // Fixes images in popup boxes from Google Translate
