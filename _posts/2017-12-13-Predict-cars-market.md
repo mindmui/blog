@@ -10,10 +10,10 @@ title: Predict a car's market using Python
 For each car we have information about the technical aspects of the vehicle such as the motor's displacement, the weight of the car, the miles per gallon, how fast the car accelerates, and more. Read more about the data set [here](https://archive.ics.uci.edu/ml/datasets/automobile).
 
 
-`python
+```python
 import pandas as pd
 import numpy as np
-`
+```
 
 ```python
 cols = ['symboling', 'normalized-losses', 'make', 'fuel-type', 'aspiration', 'num-of-doors', 'body-style', 
