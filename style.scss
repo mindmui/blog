@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 940px;
+  max-width: 740px;
   padding: 0 10px;
   width: 100%;
 }
@@ -282,59 +282,6 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
-// for tag cloud and archives
-.tag-cloud {
-  list-style: none;
-  padding: 0;
-  text-align: justify;
-  font-size: 16px;
-  li {
-    display: inline-block;
-    margin: 0 12px 12px 0;
-  }
-}
-#archives {
-  padding: 5px;
-}
-.archive-group {
-  margin: 5px;
-  border-top: 1px solid #ddd;
-}
-.archive-item {
-  margin-left: 5px;
-}
-.post-tags {
-  text-align: right;
-}
-
-table {
-  font-size: 11px;
-  padding: 0; }
-  table tr {
-    border-top: 1px solid #cccccc;
-    background-color: white;
-    font-size: 11px;
-    margin: 0;
-    padding: 0; }
-    table tr:nth-child(2n) {
-      background-color: #f8f8f8; }
-      table tr th {
-      font-weight: bold;
-      border: 1px solid #cccccc;
-      text-align: left;
-      margin: 0;
-      padding: 3px 7px; }
-    table tr td {
-      border: 1px solid #cccccc;
-      text-align: left;
-      margin: 0;
-      padding: 3px 7px; }
-    table tr th :first-child, table tr td :first-child {
-      margin-top: 0; }
-    table tr th :last-child, table tr td :last-child {
-margin-bottom: 0; }
-=======
-
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
