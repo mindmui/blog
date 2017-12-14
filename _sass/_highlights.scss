@@ -1,7 +1,27 @@
 
+pre.highlight{
+  color: #303F9F;
+  page-break-inside: avoid;
+  /* Old browsers */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-align: stretch;
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+
+
 .highlight {
   color: #303F9F;
-  border-top: 1px solid transparent;
   page-break-inside: avoid;
   /* Old browsers */
   display: -webkit-box;
