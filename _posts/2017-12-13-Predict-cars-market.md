@@ -27,7 +27,6 @@ cars = pd.read_csv('imports-85.data', names=cols)
 cars.head()
 ```
 
-
 <div>
 <table border="1" class="dataframe">
   <thead>
@@ -481,10 +480,7 @@ rmse_results_series = pd.Series(rmse_results)
 rmse_results_series.sort_values()
 ```
 
-
-
-
-    horsepower            4267.730361
+horsepower            4267.730361
     highway-mpg           4628.793094
     city-mpg              4814.778015
     curb-weight           5166.828581
@@ -498,7 +494,6 @@ rmse_results_series.sort_values()
     height               10839.693636
     bore                 13397.091693
     dtype: float64
-
 
 
 
@@ -547,8 +542,7 @@ rmse_results
 
 
 
-
-    {'bore': {1: 16502.858944335483,
+{'bore': {1: 16502.858944335483,
       3: 13895.111787987171,
       5: 13397.091693481998,
       7: 11075.156453540423,
@@ -673,7 +667,7 @@ k_rmse_results
 
 
 
-    {'five best features': 4472.2804078385598,
+{'five best features': 4472.2804078385598,
      'four best features': 4700.6472093249722,
      'six best features': 5276.4068591201612,
      'three best features': 4667.0583479710576,
