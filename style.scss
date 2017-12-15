@@ -290,6 +290,10 @@ table {
   display: flex;
   overflow-x: auto;}
 
+  table tbody {
+   display: flex;
+   overflow-x: auto;
+  }
 
   table tr {
     border-top: 1px solid #cccccc;
