@@ -291,7 +291,9 @@ table {
   overflow-x: auto;}
 
   table tbody {
-   display: flex;
+   display: flex;   
+    margin: 0;
+    padding: 0; 
   }
 
   table tr {
