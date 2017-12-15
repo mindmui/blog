@@ -1,13 +1,44 @@
 ﻿---
 layout: post
-title: Predict a car's market using Python
+title: Python: Predict a car's market using K-nearest neighbors
 ---
 
+In this tutorial, we will explore the car's market using K-nearest neighbors (KNN) regression algorithm. 
 
-## Predict a car's market
+### KNN Overview
 
+The k-nearest neighbors algorithm is based around the simple idea of predicting unknown values by matching them with the most similar known values.
+Suppose that we have 3 different types of cars. We know the name of the car, its horsepower, whether or not it has racing stripes, and whether or not it's fast.
 
-For each car we have information about the technical aspects of the vehicle such as the motor's displacement, the weight of the car, the miles per gallon, how fast the car accelerates, and more. Read more about the data set [here](https://archive.ics.uci.edu/ml/datasets/automobile).
+```
+car,horsepower,racing_stripes,is_fast
+Honda Accord,180,False,False
+Yugo,500,True,True
+Delorean DMC-12,200,True,True
+```
+
+Suppose that we now have another car, but we don't know how fast it is:
+
+```
+car,horsepower,racing_stripes,is_fast
+Chevrolet Camaro,400,True,Unknown
+```
+We want to figure out if the car is fast or not. 
+In order to predict if it is with k nearest neighbors, we first find the most similar known car. The most similar is defined by the nearest Euclidean distance to that particular point.
+
+In this case, we would compare the `horsepower` and `racing_stripes` values to find the most similar car, which is the Yugo. Since the Yugo is fast, we would predict that the Camaro is also fast. 
+This is an example of 1-nearest neighbors -- we only looked at the most similar car, giving us a k of 1.
+
+If we performed a 2-nearest neighbors, we would end up with 2 True values (for the Delorean and the Yugo), which would average out to True. The Delorean and Yugo are the two most similar cars, giving us a k of 2.
+
+If we did 3-nearest neighbors, we would end up with 2 True values and a False value, which would average out to True. If the predicting values are numerical rather than boolean, similarly, we would take an average of that numerical value.
+
+The number of neighbors we use for k-nearest neighbors (k) can be any value less than the number of rows in our dataset. In practice, looking at only a few neighbors makes the algorithm perform better, because the less similar the neighbors are to our data, the worse the prediction will be.
+
+### The Data
+
+For each car we have information about the technical aspects of the vehicle such as the motor's displacement, 
+the weight of the car, the miles per gallon, how fast the car accelerates, and more. Read more about the data set [here](https://archive.ics.uci.edu/ml/datasets/automobile).
 
 
 ```python
