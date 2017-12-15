@@ -9,7 +9,7 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
-/**************/
+/**************/  
 /* BASE RULES */
 /**************/
 
@@ -285,6 +285,10 @@ footer {
 
 
 table {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  font-size: 14px;
   padding: 0; }
   table tr {
     border-top: 1px solid #cccccc;
