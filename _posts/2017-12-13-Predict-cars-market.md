@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Python: Predict a car's market using K-nearest neighbors
+title: Predict a car's market using K-nearest neighbors
 ---
 
 In this tutorial, we will explore the car's market using K-nearest neighbors (KNN) regression algorithm. 
@@ -29,11 +29,13 @@ In order to predict if it is with k nearest neighbors, we first find the most si
 In this case, we would compare the `horsepower` and `racing_stripes` values to find the most similar car, which is the Yugo. Since the Yugo is fast, we would predict that the Camaro is also fast. 
 This is an example of 1-nearest neighbors -- we only looked at the most similar car, giving us a k of 1.
 
-If we performed a 2-nearest neighbors, we would end up with 2 True values (for the Delorean and the Yugo), which would average out to True. The Delorean and Yugo are the two most similar cars, giving us a k of 2.
+If we performed a 2-nearest neighbors, we would end up with 2 `True` values (for the Delorean and the Yugo), which would average out to `True`. 
+The Delorean and Yugo are the two most similar cars, giving us a `k` of 2.
 
-If we did 3-nearest neighbors, we would end up with 2 True values and a False value, which would average out to True. If the predicting values are numerical rather than boolean, similarly, we would take an average of that numerical value.
+If we did 3-nearest neighbors, we would end up with 2 `True` values and a `False` value, which would average out to `True`. 
+If the predicting values are of type `float` rather than `boolean`, similarly, we would take an average of the numerical values.
 
-The number of neighbors we use for k-nearest neighbors (k) can be any value less than the number of rows in our dataset. In practice, looking at only a few neighbors makes the algorithm perform better, because the less similar the neighbors are to our data, the worse the prediction will be.
+The number of neighbors we use for k-nearest neighbors (`k`) can be any value less than the number of rows in our dataset. In practice, looking at only a few neighbors makes the algorithm perform better, because the less similar the neighbors are to our data, the worse the prediction will be.
 
 ### The Data
 
