@@ -285,11 +285,13 @@ footer {
 
 
 table {
-  display: flex;
   font-size: 14px;
-  overflow-x: auto;
   padding: 0; }
-  table tr {
+
+
+  table tr { 
+   display: flex;
+  overflow-x: auto;
     border-top: 1px solid #cccccc;
     background-color: white;
     margin: 0;
