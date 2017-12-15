@@ -28,7 +28,8 @@ Andy ได้อ้างถึงหนังสือของ Dan Norman - T
 1. __Visual__ 
 	- เรามองเห็นสิ่งของนั้นก่อน ซึ่งในกรณีนี้ก็คือ dashboard คำถามก็คือ Do you like it when you first saw it? What is your Instant reaction? ซึ่ง Visual นั้นเป็นสิ่งสำคัญ มันคือ impression แรกที่ผู้ใช้จะมีต่อ dashboard ของเรา __Pleasing experience__ เป็นจุดเริ่มต้นของ dashboard ที่ดี 
 	- Andy ได้ แนะนำวิธีการง่ายๆ ที่จะพัฒนา dashboard ของเราให้ดูดี เช่นการใช้ตัวเลขขนาดใหญ่ สำหรับการแสดง KPI หรือ การให้พื้นที่กับกราฟต่างๆ ไม่อัดแน่นกราฟจนเกินไป รวมไปถึงการกำจัดสิ่งที่ไม่จำเป็นออกจาก dashboard ไม่ว่าจะเป็น axis หรือ label ที่่มาแย่งพื้นที่กราฟของเรา ยกตัวอย่างเช่นภาพด้านล่าง เพียงแค่ปรับขนาด Font จัดเรียง layout และลบ axis ออก dashboard ของเราก็เปลี่ยนไปในทันที 
-		![Improve Viz](http://mind.in.th/blog/images/tableau2.jpg)
+
+	![Improve Viz](http://mind.in.th/blog/images/tableau2.jpg)
 
 
 2. __Behavioral__

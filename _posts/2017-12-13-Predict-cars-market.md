@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Predict a car's market using K-nearest neighbors
+title: Python: Predict a car's market using K-nearest neighbors
 ---
 
 In this tutorial, we will explore the car's market using K-nearest neighbors (KNN) regression algorithm. 
@@ -27,15 +27,13 @@ We want to figure out if the car is fast or not.
 In order to predict if it is with k nearest neighbors, we first find the most similar known car. The most similar is defined by the nearest Euclidean distance to that particular point.
 
 In this case, we would compare the `horsepower` and `racing_stripes` values to find the most similar car, which is the Yugo. Since the Yugo is fast, we would predict that the Camaro is also fast. 
-This is an example of 1-nearest neighbors -- we only looked at the most similar car, giving us a `k` of 1.
+This is an example of 1-nearest neighbors -- we only looked at the most similar car, giving us a k of 1.
 
-If we performed a 2-nearest neighbors, we would end up with 2 `True` values (for the Delorean and the Yugo), 
-which would average out to True. The Delorean and Yugo are the two most similar cars, giving us a `k` of 2.
+If we performed a 2-nearest neighbors, we would end up with 2 True values (for the Delorean and the Yugo), which would average out to True. The Delorean and Yugo are the two most similar cars, giving us a k of 2.
 
-If we did 3-nearest neighbors, we would end up with 2 `True` values and a `False` value, which would average out to `True`. 
-If the predicting values are `float` rather than `boolean`, similarly, we would take an average of the numerical values.
+If we did 3-nearest neighbors, we would end up with 2 True values and a False value, which would average out to True. If the predicting values are numerical rather than boolean, similarly, we would take an average of that numerical value.
 
-The number of neighbors we use for k-nearest neighbors (`k`) can be any value less than the number of rows in our dataset. In practice, looking at only a few neighbors makes the algorithm perform better, because the less similar the neighbors are to our data, the worse the prediction will be.
+The number of neighbors we use for k-nearest neighbors (k) can be any value less than the number of rows in our dataset. In practice, looking at only a few neighbors makes the algorithm perform better, because the less similar the neighbors are to our data, the worse the prediction will be.
 
 ### The Data
 
@@ -750,10 +748,9 @@ plt.legend(['Two','Three','Five'])
 plt.show()
 ```
 
-
-![png](output_30_0.png)
+![png](http://mind.in.th/blog/images/knn1.png)
 
 
 ### Next Steps:
-- Modify the knn_train_test() function to use k-fold cross validation instead of test/train validation.
-- Modify the knn_train_test() function to perform the data cleaning as well.
+- Modify the `knn_train_test()` function to use k-fold cross validation instead of test/train validation.
+- Modify the `knn_train_test()` function to perform the data cleaning as well.
