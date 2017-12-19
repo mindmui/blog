@@ -288,13 +288,9 @@ table {
   font-size: 14px;
   padding: 0; 
   display: flex;
-  overflow-x: auto;}
-
-  table tbody {
-   display: flex;   
-    margin: 0;
-    padding: 0; 
   }
+
+
 
   table tr {
     border-top: 1px solid #cccccc;
@@ -322,7 +318,12 @@ table {
     table tr th :last-child, table tr td :last-child {
 margin-bottom: 0; }
 
-
+  table tbody {
+   display: flex;   
+    margin: 0;
+    padding: 0; 
+  }
+  
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
