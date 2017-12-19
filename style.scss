@@ -318,12 +318,15 @@ table {
       border: 1px solid #cccccc;
       text-align: left;
       margin: 0;
-      padding: 3px 7px; }
+      padding: 3px 7px; 
+      display: flex;
+          }
     table tr td {
       border: 1px solid #cccccc;
       text-align: left;
       margin: 0;
-      padding: 3px 7px; }
+      padding: 3px 7px; 
+          display: flex;}
     table tr th :first-child, table tr td :first-child {
       margin-top: 0; }
     table tr th :last-child, table tr td :last-child {
