@@ -310,7 +310,9 @@ table {
   font-size: 14px;
   padding: 0; 
   width:80%;
-  overflow:auto; 
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
   }
 
     table tr:nth-child(2n) {
