@@ -303,7 +303,7 @@ table {
     padding: 0; 
     display: flex;
     }
-
+*/
     table tr:nth-child(2n) {
       background-color: #f8f8f8; }
       table tr th {
@@ -322,13 +322,9 @@ table {
     table tr th :last-child, table tr td :last-child {
 margin-bottom: 0; }
 
-*/
 
-table {
-  font-size: 14px;
-  padding: 0; 
-  display: flex;
-  }
+
+
 
 th,
 td {
